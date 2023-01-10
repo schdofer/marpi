@@ -25,7 +25,6 @@ Descrever sucintamente em um parágrafo o projeto.
 <br />
 
 ## **1. ARQUITETURA**
----
 
 ### **1.1. Tecnologias utilizadas**
 - Angular (Frontend)
@@ -83,7 +82,6 @@ Descrever sucintamente em um parágrafo o projeto.
 <br />
 
 ## **2. AMBIENTE DE DESENVOLVIMENTO**
----
 
 Instruções para que você consiga montar o ambiente de desenvolvimento e executar localmente.
 <br />
@@ -126,7 +124,6 @@ Passo a passo com exemplos de como executar a aplicação.
 <br />
 
 ## **3. EXECUTANDO OS TESTES**
----
 
 Explica como executar os testes automatizados para este sistema.
 
@@ -143,7 +140,6 @@ Explica como executar os testes automatizados para este sistema.
 <br />
 
 ## **4. PUBLICAÇÃO**
----
 
 Informações adicionais sobre o deploy desta aplicação em desenvolvimento, homologação e produção.
 
@@ -152,7 +148,6 @@ Informações adicionais sobre o deploy desta aplicação em desenvolvimento, ho
 <br />
 
 ## **5. VERSIONAMENTO**
----
 
 Nós usamos [Semantic Versioning](http://semver.org/) para versionamento.
 
@@ -163,7 +158,6 @@ Para ver as versões disponíveis, veja as [tags neste repositorio](https://gith
 <br />
 
 ## **6. LICENÇA**
----
 
 Este projeto é liceciado com [CC0 1.0 Universal](LICENSE.md)
 
@@ -174,7 +168,6 @@ Creative Commons License - veja o arquivo [LICENSE.md](LICENSE.md) para maiores 
 <br />
 
 ## **7. CONTATOS**
----
 
 | Nome | E-mail | Telefone | Função | Órgão |
 | ---- | ------ | -------- | ------ | ----- |
