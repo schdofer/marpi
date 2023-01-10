@@ -16,7 +16,7 @@ Descrever sucintamente em um parágrafo o projeto.
 
 <br />
 
-| [ARQUITETURA](#1-arquitetura) | [AMBIENTE DE DESENVOLVIMENTO](#2-ambiente-de-desenvolvimento) | [EXECUTANDO OS TESTES](#3-executando-os-testes) | [PUBLICAÇÃO](#4-publicação) | [VERSIONAMENTO](#5-versionamento) | [LICENÇA](#6-licença) | [CONTATOS](#7-contatos) |
+| [ARQUITETURA](#1-arquitetura) | [AMBIENTE DE DESENVOLVIMENTO](#2-ambiente-de-desenvolvimento) | [TESTES](#3-testes) | [PUBLICAÇÃO](#4-publicação) | [VERSIONAMENTO](#5-versionamento) | [LICENÇA](#6-licença) | [CONTATOS](#7-contatos) |
 | --------------------------- | ----------------------- | --------------------------------------------- | ------------------------- | ------------------------------- | ------------------- | --------------------- |
 
 
@@ -39,15 +39,6 @@ Descrever sucintamente em um parágrafo o projeto.
 
 <div class="table-dev">
 
-<table>
-     <tr style="background-color: green;">
-          <th>oi</th>
-     </tr>
-     <tr>
-          <td>oi</td>
-     </tr>
-</table>
-
 | Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
 | -------- | ---- | -------- | ----------------- | --------------------- |
 | DEV | DATABASE SERVER | lpmpa-des3 | - | PostgreSQL 9 |
@@ -58,6 +49,23 @@ Descrever sucintamente em um parágrafo o projeto.
 </div>
 
 <div class="table-hom">
+
+<h5 align="center">HOMOLOGAÇÃO</h5>
+
+<table align="center">
+     <tr>
+          <th>Tipo</th>
+          <th>Servidor</th>
+          <th>Link (se existir)</th>
+          <th>Informaçõe adicionais</th>
+     </tr>
+     <tr>
+          <td>DATABASE SERVER</td>
+          <td>lpmpa-des3</td>
+          <td> - </td>
+          <td>PostgreSQL 9</td>
+     </tr>
+</table>
 
 | Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
 | -------- | ---- | -------- | ----------------- | --------------------- |
@@ -132,7 +140,7 @@ Passo a passo com exemplos de como executar a aplicação.
 
 <br />
 
-## **3. EXECUTANDO OS TESTES**
+## **3. TESTES**
 
 Explica como executar os testes automatizados para este sistema.
 
