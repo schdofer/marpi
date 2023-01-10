@@ -25,7 +25,6 @@ Descrever sucintamente em um parágrafo o projeto.
 <br />
 
 ## **1. ARQUITETURA**
-
 ### **1.1. Tecnologias utilizadas**
 - <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" /> Angular (Frontend)
 - <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />Google Charts (Frontend)
@@ -36,55 +35,44 @@ Descrever sucintamente em um parágrafo o projeto.
 <br />
 
 ### **1.2. Servidores e Links**
+<div class="table-dev" align="center">
 
-<div class="table-dev">
+#### [ DESENVOLVIMENTO ]
 
-| Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
-| -------- | ---- | -------- | ----------------- | --------------------- |
-| DEV | DATABASE SERVER | lpmpa-des3 | - | PostgreSQL 9 |
-| DEV | APPLICATION SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
-| DEV | WEB SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
-| DEV | LOG SERVER | lpmpa-des3 | https://meulink.com | - |
-
+| Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
+| ---- | -------- | ----------------- | --------------------- |
+| DATABASE SERVER | lpmpa-des3 | - | PostgreSQL 9 |
+| APPLICATION SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| WEB SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| LOG SERVER | lpmpa-des3 | https://meulink.com | - |
 </div>
 
-<div class="table-hom">
+<br />
 
-<h5 align="center">HOMOLOGAÇÃO</h5>
+<div class="table-hom" align="center">
 
-<table align="center">
-     <tr>
-          <th>Tipo</th>
-          <th>Servidor</th>
-          <th>Link (se existir)</th>
-          <th>Informaçõe adicionais</th>
-     </tr>
-     <tr>
-          <td>DATABASE SERVER</td>
-          <td>lpmpa-des3</td>
-          <td> - </td>
-          <td>PostgreSQL 9</td>
-     </tr>
-</table>
+#### [ HOMOLOGAÇÃO ]
 
-| Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
-| -------- | ---- | -------- | ----------------- | --------------------- |
-| HOM | DATABASE SERVER | lpmpa-des3 | https://meulink.com | PostgreSQL 9 |
-| HOM | APPLICATION SERVER | lpmpa-des3 | https://meulink.com |  Docker com Nginx |
-| HOM | WEB SERVER | lpmpa-des3 | https://meulink.com |  Docker com Nginx |
-| HOM | LOG SERVER | lpmpa-des3 | https://meulink.com | - |
-
+| Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
+| ---- | -------- | ----------------- | --------------------- |
+| DATABASE SERVER | lpmpa-des3 | - | PostgreSQL 9 |
+| APPLICATION SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| WEB SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| LOG SERVER | lpmpa-des3 | https://meulink.com | - |
 </div>
 
-<div class="table-prod">
+<br />
 
-| Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
-| -------- | ---- | -------- | ----------------- | --------------------- |
-| PROD | DATABASE SERVER | lpmpa-des3 | https://meulink.com | PostgreSQL |
-| PROD | APPLICATION SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
-| PROD | WEB SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
-| PROD | LOG SERVER | lpmpa-des3 | https://meulink.com | - |
+<div class="table-prod" align="center">
 
+#### [ PRODUÇÃO ]
+
+| Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
+| ---- | -------- | ----------------- | --------------------- |
+| DATABASE SERVER | lpmpa-des3 | - | PostgreSQL 9 |
+| APPLICATION SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| WEB SERVER | lpmpa-des3 | https://meulink.com | Docker com Nginx |
+| LOG SERVER | lpmpa-des3 | https://meulink.com | - |
 </div>
 
 <br />
@@ -99,7 +87,6 @@ Descrever sucintamente em um parágrafo o projeto.
 <br />
 
 ## **2. AMBIENTE DE DESENVOLVIMENTO**
-
 Instruções para que você consiga montar o ambiente de desenvolvimento e executar localmente.
 <br />
 
@@ -112,52 +99,50 @@ Examplo:
 - Maven
 - Eclipse IDE
 - NPM
-    - ```npm install npm@latest -g```
+     - ```npm install npm@latest -g```
 - Wildfly Versão 17
-    - Modulo Keycloak instalado (veja mais em...link tutorial on github)
-    - Modulo Postgres instalado (veja mais em...link tutorial on github)
+     - Modulo Keycloak instalado (veja mais em...link tutorial on github)
+     - Modulo Postgres instalado (veja mais em...link tutorial on github)
 <br />
 
 ### **2.2. Instalando**
 Passo a passo com exemplos de como executar a aplicação.
 1. Clone o repositório
 
-    ```git clone git@github.com:schdofer/teste.git```
+     ```git clone git@github.com:schdofer/teste.git```
 
 2. Instale as dependências (na pasta raíz do projeto)
 
-     ```npm install```
+      ```npm install```
 
 3. Defina variáveis de ambiente
 
-     ```ENV = local | dev | hom | prod```
+      ```ENV = local | dev | hom | prod```
 
 4. Execute localmente
 
-     ```ng serve```
+      ```ng serve```
 
 <br />
 
 <br />
 
 ## **3. TESTES**
-
 Explica como executar os testes automatizados para este sistema.
 
 1. Instale as dependências (na pasta raíz do projeto)
 
-     ```npm install```
+      ```npm install```
 
 2. Execute os testes
 
-     ```npm test```
+      ```npm test```
 
 <br />
 
 <br />
 
 ## **4. PUBLICAÇÃO**
-
 Informações adicionais sobre o deploy desta aplicação em desenvolvimento, homologação e produção.
 
 <br />
@@ -165,7 +150,6 @@ Informações adicionais sobre o deploy desta aplicação em desenvolvimento, ho
 <br />
 
 ## **5. VERSIONAMENTO**
-
 Nós usamos [Semantic Versioning](http://semver.org/) para versionamento.
 
 Para ver as versões disponíveis, veja as [tags neste repositorio](https://github.com/PurpleBooth/a-good-readme-template/tags).
@@ -175,7 +159,6 @@ Para ver as versões disponíveis, veja as [tags neste repositorio](https://gith
 <br />
 
 ## **6. LICENÇA**
-
 Este projeto é liceciado com [CC0 1.0 Universal](LICENSE.md)
 
 Creative Commons License - veja o arquivo [LICENSE.md](LICENSE.md) para maiores detalhes.
@@ -185,7 +168,6 @@ Creative Commons License - veja o arquivo [LICENSE.md](LICENSE.md) para maiores 
 <br />
 
 ## **7. CONTATOS**
-
 | Nome | E-mail | Telefone | Função | Órgão |
 | ---- | ------ | -------- | ------ | ----- |
 | Fernando Schneider da Cunha | fernando.cunha@procempa.com.br | (51) 3289-6357 | Desenvolvedor | PROCEMPA |
