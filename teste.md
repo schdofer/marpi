@@ -2,7 +2,7 @@
 
 Descrever sucintamente em um parágrafo o projeto.
 
-<style>
+<!-- <style>
     .table-dev table { margin: 15px 0; }
     .table-dev table th { background-color: #2E8A4C; }
     .table-dev table tr td:first-child { background-color: #2E8A4C; }
@@ -12,7 +12,7 @@ Descrever sucintamente em um parágrafo o projeto.
     .table-prod table { margin: 15px 0; }
     .table-prod table th { background-color: #993338; }
     .table-prod table tr td:first-child { background-color: #993338; }
-</style>
+</style> -->
 
 <br />
 
@@ -27,17 +27,26 @@ Descrever sucintamente em um parágrafo o projeto.
 ## **1. ARQUITETURA**
 
 ### **1.1. Tecnologias utilizadas**
-- Angular (Frontend)
-- Google Charts (Frontend)
-- Google Maps (Frontend)
-- Java (Backend)
-- Spring Boot (Backend)
+- <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" /> Angular (Frontend)
+- <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />Google Charts (Frontend)
+- <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />Google Maps (Frontend)
+- <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> Java (Backend)
+- <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> Spring Boot (Backend)
 
 <br />
 
 ### **1.2. Servidores e Links**
 
 <div class="table-dev">
+
+<table>
+     <tr style="background-color: green;">
+          <th>oi</th>
+     </tr>
+     <tr>
+          <td>oi</td>
+     </tr>
+</table>
 
 | Ambiente | Tipo | Servidor | Link (se existir) | Informaçõe adicionais |
 | -------- | ---- | -------- | ----------------- | --------------------- |
